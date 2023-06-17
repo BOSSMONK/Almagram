@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Arsenal:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Antic+Slab:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Andika:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-antic-slab: "Antic Slab";
+  --font-cabin-condensed: "Cabin Condensed";
+  --font-arsenal: Arsenal;
+  --font-andika: Andika;
+
+  /* font sizes */
+  --font-size-2xs: 13px;
+  --font-size-xs: 14px;
+  --font-size-sm: 15px;
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-2xl: 22px;
+  --font-size-3xl: 24px;
+  --font-size-4xl: 28px;
+  --font-size-5xl: 32px;
+  --font-size-6xl: 42px;
+  --font-size-7xl: 40px;
+  --font-size-8xl: 44px;
+  --font-size-9xl: 48px;
+  --font-size-10xl: 76px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gray-100: #fdfbf8;
+  --bg: #f4f4f4;
+  --color-gray-300: #f3f3f3;
+  --color-gray-400: #dadada;
+  --color-gray-500: #d2d2d2;
+  --color-gray-600: #c4c4c4;
+  --color-gray-700: #bbb;
+  --color-gray-800: #b5b5b5;
+  --color-gray-900: #948b8b;
+  --second-text: #8d8d8d;
+  --color-gray-1100: #878787;
+  --color-gray-1200: #505050;
+  --color-gray-1300: #444342;
+  --color-gray-1400: #3d3737;
+  --color-gray-1500: #313131;
+  --color-gray-1600: #2b2b2b;
+  --dark: #161616;
+  --color-orange: #ff820e;
+  --second-color: #d3a265;
+  --line: #dcd1bb;
+
+  /* Gaps */
+  --gap-md: 27px;
+
+  /* Paddings */
+  --padding-sm: 8px;
+  --padding-md: 22px;
+
+  /* border radiuses */
+  --br-xs: 1px;
+  --br-sm: 8px;
+  --br-md: 10px;
+  --br-lg: 17px;
+}

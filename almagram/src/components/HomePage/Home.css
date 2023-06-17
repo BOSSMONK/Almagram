@@ -1,0 +1,151 @@
+.frame-div,
+.line-div {
+  position: absolute;
+  top: 42px;
+  left: 53px;
+  width: 1343px;
+  height: 748px;
+}
+.line-div {
+  top: 845.5px;
+  left: 63vw;
+  border-right: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1px;
+  height: 768px;
+}
+.rectangle-div {
+  position: absolute;
+  top: 104px;
+  left: 0px;
+  background-color: var(--color-gray-100);
+  width: 100vw;
+  height: 703px;
+}
+.rectangle-div1 {
+  position: absolute;
+  top: 0;
+  left: -29px;
+  border-radius: 22px;
+  background-color: rgba(217, 217, 217, 0.01);
+  box-shadow: 0 4px 66px 5px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(13px);
+  width: 101vw;
+  height: 100px;
+}
+.almagram-div {
+  letter-spacing: 0.01em;
+  width: 199px;
+  height: 44px;
+  flex-shrink: 0;
+}
+.almagram-div,
+.get-started-b {
+  position: relative;
+  display: inline-block;
+}
+.frame-div2,
+.frame-div3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.frame-div3 {
+  border-radius: 17px;
+  background-color: #0094ff;
+  width: 171.21px;
+  height: 43px;
+  flex-shrink: 0;
+  padding: 8px 22px;
+  box-sizing: border-box;
+  justify-content: center;
+  font-size: 22px;
+  color: #fffdfd;
+  font-family: var(--font-cabin-condensed);
+}
+.frame-div2 {
+  position: absolute;
+  top: 23px;
+  left: 53px;
+  justify-content: flex-start;
+  gap: 1058px;
+}
+.frame-div1 {
+  position: absolute;
+  top: 3px;
+  left: 20px;
+  width: 1239px;
+  height: 100px;
+  font-size: 45px;
+}
+.rectangle-div2 {
+  position: absolute;
+  top: 868px;
+  left: 41px;
+  background-color: var(--color-gray-100);
+  width: 888px;
+  height: 703px;
+}
+.ellipse-icon,
+.ellipse-icon1,
+.ellipse-icon2,
+.ellipse-icon3 {
+  position: absolute;
+  top: 885px;
+  left: 1010px;
+  width: 124px;
+  height: 114px;
+}
+.ellipse-icon1,
+.ellipse-icon2,
+.ellipse-icon3 {
+  top: 1058px;
+}
+.ellipse-icon2,
+.ellipse-icon3 {
+  top: 1231px;
+}
+.ellipse-icon3 {
+  top: 1404px;
+}
+.lorem-ipsum-div,
+.lorem-ipsum-div1,
+.lorem-ipsum-div2,
+.lorem-ipsum-div3 {
+  position: absolute;
+  top: 911px;
+  left: 1178px;
+  letter-spacing: 0.01em;
+  display: inline-block;
+  width: 378px;
+  height: 60px;
+}
+.lorem-ipsum-div1,
+.lorem-ipsum-div2,
+.lorem-ipsum-div3 {
+  top: 1092px;
+  left: 1178px;
+}
+.lorem-ipsum-div2,
+.lorem-ipsum-div3 {
+  top: 1261px;
+  left: 1178px;
+}
+.lorem-ipsum-div3 {
+  top: 1439px;
+  left: 1178px;
+}
+.home-div {
+  position: relative;
+  width: 100%;
+  height: 1652px;
+  overflow: hidden;
+  background-image: url(../../public/home@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-arsenal);
+}

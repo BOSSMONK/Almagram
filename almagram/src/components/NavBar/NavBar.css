@@ -1,0 +1,57 @@
+.rectangle-div {
+  position: absolute;
+  top: 0;
+  left: -8px;
+  border-radius: 22px;
+  background-color: rgba(217, 217, 217, 0.01);
+  box-shadow: 0 4px 66px 5px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(13px);
+  width: 101vw;
+  height: 100px;
+}
+.almagram-div {
+  letter-spacing: 0.01em;
+  width: 199px;
+  height: 44px;
+  flex-shrink: 0;
+}
+.almagram-div,
+.get-started-b {
+  position: relative;
+  display: inline-block;
+}
+.frame-div,
+.frame-div1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.frame-div1 {
+  border-radius: 17px;
+  background-color: #0094ff;
+  width: 171.21px;
+  height: 43px;
+  flex-shrink: 0;
+  padding: 8px 22px;
+  box-sizing: border-box;
+  justify-content: center;
+  font-size: 22px;
+  color: #fff;
+  font-family: var(--font-cabin-condensed);
+}
+.frame-div {
+  position: absolute;
+  top: 23px;
+  left: 53px;
+  justify-content: flex-start;
+  gap: 1058px;
+}
+.nav-bar-div {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  text-align: left;
+  font-size: 45px;
+  color: #000;
+  font-family: var(--font-arsenal);
+}
